@@ -1,4 +1,4 @@
-Refer to this for more details - http://grasshopper.tech/732/
+Refer to this for more details - https://grasshopper.tech/732/
 
 Cucumber-JVM 4 supports parallel execution across threads out of the box and also with JUnit and TestNG. The easiest way to integrate Selenium with Cucumber in parallel mode is to use Before and After hooks to create and close the driver respectively. But this is expensive and time consuming.
 

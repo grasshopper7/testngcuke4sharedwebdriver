@@ -15,7 +15,7 @@ public final class DriverFactory {
 	static {
 		Runtime.getRuntime().addShutdownHook(new Thread() {
 			public void run() {
-				storedDrivers.stream().forEach(WebDriver::quit);
+				storedDrivers.forEach(WebDriver::quit);
 			}
 		});
 	}

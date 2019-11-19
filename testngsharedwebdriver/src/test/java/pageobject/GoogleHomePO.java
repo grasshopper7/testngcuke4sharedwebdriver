@@ -14,7 +14,7 @@ public class GoogleHomePO extends LoadableComponent<GoogleHomePO>{
 	@FindBy(css = "input[name='q']")
 	private WebElement searchTextBox;
 	
-	@FindBy(css="div[class='FPdoLc VlcLAe'] input[name='btnK']")
+	@FindBy(css="div:not([jsname]) > center > input[value='Google Search']")
 	private WebElement searchButton;
 	
 	@FindBy(css="img[alt='Google']")

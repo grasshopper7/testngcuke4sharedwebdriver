@@ -24,6 +24,6 @@ public class StepDefinition {
 	@When("Enter search {string}")
 	public void when(String search) {
 		gsPO = ghPO.performSearch(search);
-		System.out.format("\nCount results for %s search is %d.\n", search, gsPO.searchResultCount());
+		System.out.format("\nCount results for %s search is %s.\n", search, gsPO.searchResultCount());
 	}
 }
